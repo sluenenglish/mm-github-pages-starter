@@ -42,7 +42,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
 exclude:
-  - .idea/
+  - .idea/**/*
    - Gemfile
    - Gemfile.lock
    - node_modules
@@ -71,7 +71,7 @@ author:
   avatar           : "/assets/images/avatar.jpeg"
   bio              : "Software Architect @ Atheon Analytics"
   location         : "Milton Keynes, England"
-  email            : "sluenenglish@atheon.co.uk"
+  email            : "sluenenglish@gmail.co.uk"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
